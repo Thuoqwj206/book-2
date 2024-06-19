@@ -1,0 +1,15 @@
+ 
+  #content {
+    color: rgb(63, 59, 59);
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    overflow-y: auto;
+    height: 100vh;
+  }
+
+  #content h2,h3,h4{
+    color: rgb(63, 59, 59);
+  }
+
+  
