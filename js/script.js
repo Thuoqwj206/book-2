@@ -225,6 +225,13 @@
       innerHeight: 585,
     });
 
+    $(document).ready(function() {
+      $('.tabs li').click(function(e) {
+          e.stopPropagation();
+          $(this).children('.nested-list').slideToggle();
+      });
+  });
+
   });
 
 })(jQuery);
