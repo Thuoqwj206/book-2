@@ -20,5 +20,10 @@
       background-color: rgb(80, 150, 85);
     }
 
+    table, th, td {
+    Text-align: center;
+             border: 1px solid black;
+             border-collapse: collapse;
+    }
  
   
